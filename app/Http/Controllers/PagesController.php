@@ -18,6 +18,9 @@ class PagesController extends Controller
     public function add (){
         return view('pages.service');
     }
+    public function remove (){
+        return view('pages');
+    }
 
 
 }
