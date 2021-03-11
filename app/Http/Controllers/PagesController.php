@@ -21,9 +21,6 @@ class PagesController extends Controller
     public function remove (){
         return view('pages');
     }
-    public function g (){
-        return view('pages');
-    }
 
 
 }
